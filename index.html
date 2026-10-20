@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pivot - 公式サポート＆プライバシーポリシー</title>
+  <style>
+    :root {
+      --bg: #0a0e17;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.1);
+      --primary: #00ff88;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 32px 16px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .logo-badge {
+      display: inline-block;
+      font-size: 2.2rem;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #00d4ff, #00ff88);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(10px);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    p {
+      margin-bottom: 12px;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+    .contact-list {
+      list-style: none;
+      margin: 16px 0;
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .contact-item a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-weight: bold;
+      word-break: break-all;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .faq-item {
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding-bottom: 14px;
+    }
+    .faq-q {
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .faq-a {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 0.8rem;
+      margin-top: 48px;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-badge">Pivot</div>
+      <div class="subtitle">勝ち筋を掴む総合収支トラッカー / Support & Privacy Policy</div>
+    </header>
+
+    <!-- サポートお問い合わせ -->
+    <div class="card" id="support">
+      <h2>📬 お問い合わせ・サポート窓口 (Support)</h2>
+      <p>「Pivot」をご利用いただき誠にありがとうございます。アプリの不具合報告、ご要望、使い方に関するご質問は以下の窓口よりお気軽にお問い合わせください。</p>
+      
+      <div class="contact-list">
+        <div class="contact-item">
+          <span style="font-size:1.4rem;">𝕏</span>
+          <div>
+            <div style="font-size:0.75rem;color:var(--text-muted);">公式サポート / 開発者 X (Twitter)</div>
+            <a href="https://x.com/ev87z" target="_blank" rel="noopener">@ev87z (ダイレクトメッセージ / リプライ)</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span style="font-size:1.4rem;">✉️</span>
+          <div>
+            <div style="font-size:0.75rem;color:var(--text-muted);">メールでのお問い合わせ (Email Support)</div>
+            <a href="mailto:support@quasar-app.com">support@quasar-app.com</a>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:0.85rem;color:var(--text-muted);">通常1〜2営業日以内に順次ご回答・ご対応いたします。</p>
+    </div>
+
+    <!-- よくある質問 -->
+    <div class="card" id="faq">
+      <h2>❓ よくあるご質問 (FAQ)</h2>
+      
+      <div class="faq-item">
+        <div class="faq-q">Q. データのバックアップや引き継ぎはどうすればいいですか？</div>
+        <div class="faq-a">A. アプリ内の設定画面にある「バックアップ」機能から、記録データをJSONファイルまたはCSVファイルとして保存・共有・エクスポートできます。機種変更時は、保存したバックアップファイルを「復元」から読み込むことでデータを引き継ぐことができます。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Q. 登録したデータは外部のサーバーに送信されますか？</div>
+        <div class="faq-a">A. いいえ。すべての収支データ・戦績記録はお手元のスマートフォン端末内（ローカルストレージ）に安全に保存されます。開発者や第三者がお客様の記録を閲覧・収集することはありません。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Q. 麻雀の収支単位（ptやあだ名）の変更方法は？</div>
+        <div class="faq-a">A. 麻雀ホーム画面右上の歯車アイコン（⚙️）をタップすると、単位や名前（例: コシー、pt、ペリカなど）を自由に変更できます。変更内容は過去の記録にも一括反映されます。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Q. アプリが正常に動かない、またはフリーズした場合は？</div>
+        <div class="faq-a">A. アプリの再起動をお試しください。改善しない場合は上記サポート窓口（Xまたはメール）まで、ご利用の機種とiOSバージョンを添えてご連絡ください。</div>
+      </div>
+    </div>
+
+    <!-- プライバシーポリシー -->
+    <div class="card" id="privacy">
+      <h2>🔒 プライバシーポリシー (Privacy Policy)</h2>
+      <p>「Pivot」（以下、「当アプリ」）における利用者情報の取り扱いについて、以下の通り定めます。</p>
+      
+      <div style="margin-top:12px;font-size:0.88rem;color:#cbd5e1;line-height:1.7;">
+        <h3 style="color:#fff;font-size:0.95rem;margin:10px 0 4px;">1. 取得する情報および利用目的</h3>
+        <p>当アプリは、ユーザーの収支管理・設定推測・戦績分析を支援するためのオフライン中心のツールです。入力された収支データ、店舗名、メモ、機種情報等はすべてご利用の端末内（ローカル）にのみ保存され、外部サーバーへ送信・収集されることはありません。</p>
+
+        <h3 style="color:#fff;font-size:0.95rem;margin:10px 0 4px;">2. 個人情報の第三者提供</h3>
+        <p>当アプリは、法令に基づく場合を除き、利用者の個人情報を第三者に提供・開示することはありません。</p>
+
+        <h3 style="color:#fff;font-size:0.95rem;margin:10px 0 4px;">3. 免責事項</h3>
+        <p>当アプリが提供する設定推測や期待値等の計算結果は参考情報であり、遊技結果や収支を保証するものではありません。当アプリの利用によって生じた損害等について、開発者は一切の責任を負いかねますのでご了承ください。</p>
+
+        <h3 style="color:#fff;font-size:0.95rem;margin:10px 0 4px;">4. プライバシーポリシーの変更</h3>
+        <p>本ポリシーの内容は、法令の改正やアプリの機能改修に伴い、予告なく変更されることがあります。</p>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 Pivot App. All Rights Reserved.
+    </footer>
+  </div>
+</body>
+</html>
